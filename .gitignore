@@ -19,3 +19,6 @@ npm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+# local UI audit screenshots
+.ui-audit/

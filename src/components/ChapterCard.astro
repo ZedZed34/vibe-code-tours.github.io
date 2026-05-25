@@ -10,7 +10,7 @@ const { chapter, readMore } = Astro.props;
 const { num, tag, title, outcome, tiers, duration, hero = false } = chapter;
 ---
 
-<article class:list={['card card-link', hero && 'border-accent-300 bg-accent-50']}>
+<article class:list={['card', hero && 'border-accent-300 bg-accent-50']}>
   <div class="flex items-center gap-3">
     <span class="rounded-md bg-gray-900 px-2.5 py-1 text-sm font-bold text-white">Ch{num}</span>
     {tag && (
@@ -30,5 +30,5 @@ const { num, tag, title, outcome, tiers, duration, hero = false } = chapter;
     ))}
   </div>
 
-  <span class="mt-4 inline-block text-sm font-semibold text-accent-700">{readMore}</span>
+  <p class="mt-4 text-xs font-medium uppercase tracking-wide text-gray-400">{readMore}</p>
 </article>

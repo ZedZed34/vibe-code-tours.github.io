@@ -31,6 +31,11 @@
   h3 {
     @apply text-gray-900 font-bold tracking-tight;
   }
+  /* Visible keyboard focus everywhere (WCAG 2.4.7). Amber ring on a white
+     offset so it reads on both white and amber-tinted surfaces. */
+  :where(a, button, [role='button'], summary, .card, input, select, textarea):focus-visible {
+    @apply outline-none ring-2 ring-accent-500 ring-offset-2 ring-offset-white rounded-md;
+  }
 }
 
 @layer components {
@@ -47,7 +52,7 @@
     @apply border border-gray-300 bg-white text-gray-800 hover:border-accent-600 hover:text-accent-800;
   }
   .card {
-    @apply block rounded-xl border border-gray-200 bg-white p-6 no-underline transition;
+    @apply block rounded-xl border border-gray-200 bg-white p-6 no-underline transition hover:border-accent-300;
   }
   .card-link:hover {
     @apply -translate-y-0.5 border-accent-500 shadow-md;
