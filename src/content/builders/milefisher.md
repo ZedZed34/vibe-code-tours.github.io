@@ -3,15 +3,14 @@ name: Aung Khant Paing
 github: https://github.com/MileFisher
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "Claude Code"]
+skills: ["JavaScript", "Python", "Java", "C", "C++", "Claude Code"]
 repo: https://github.com/MileFisher/vibe-code-tours.github.io.git
 x: your-x-handle
 linkedin: your-linkedin-username
 website: https://your-site.com
 ---
 
-Hi! I'm learning to vibe-code with AI. My goal is to build and ship something
-real by Demo Day. Excited to be part of the Tour.
+Hi! I'm learning to vibe-code with AI. I am a software Engineering student. I want to update my workflow style more with AI.
 
 <!--
 HOW TO ADD YOURSELF:
