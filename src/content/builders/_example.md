@@ -1,6 +1,6 @@
 ---
-name: Lwin Hein Khant
-github: FurryForWhat
+name: Your Name
+github: githubusername
 cohort: 1
 role: builder
 skills: ["JavaScript", "Python", "Java", "Claude Code"]
