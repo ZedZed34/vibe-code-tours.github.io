@@ -1,16 +1,17 @@
 ---
-name: Hla Htun Thein
-github: hlahtunthein09
+name: Soe Yee Mon Htet
+github: Soe-Yee-Mon-Htet
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "React", "Next.js", "Claude Code"]
-repo: https://github.com/hlahtunthein09/vibe-code-tours.github.io.git
-linkedin: www.linkedin.com/in/hlahtun-thein-b7ab56206
-website: https://react-tailwind-personal-portfolio-beta.vercel.app/
+skills: ["JavaScript", "Reactjs"]
+repo: 
+x:
+linkedin: 
+website: 
 ---
 
-Hello, my name is Hla Htun Thein and I'm learning web development.
-I hope this tour could help us to unite with AI in coding workflow.
+Hi! I'm learning to vibe-code with AI. My goal is to build and ship something
+real by Demo Day. Excited to be part of the Tour.
 
 <!--
 HOW TO ADD YOURSELF:
