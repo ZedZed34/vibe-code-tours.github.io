@@ -11,7 +11,16 @@ const s = t(locale).repoAccess;
 
   <h2 class="mt-10 text-xl font-semibold text-white">{s.gate.heading}</h2>
   <ul class="mt-4 space-y-2 text-gray-400">
-    {s.gate.items.map((it) => <li class="flex gap-2"><span>✅</span><span>{it}</span></li>)}
+    {
+      s.gate.items.map((it) => (
+        <li class="flex gap-2">
+          <>
+            <span>✅</span>
+            <span>{it}</span>
+          </>
+        </li>
+      ))
+    }
   </ul>
 
   <h2 class="mt-10 text-xl font-semibold text-white">{s.steps.heading}</h2>
@@ -22,7 +31,13 @@ const s = t(locale).repoAccess;
           <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-white">
             {i + 1}
           </span>
-          <span set:html={it.replace(/\/repo-access|\/ch1/g, (m) => `<code class="rounded bg-white/10 px-1.5 py-0.5 font-mono text-sm text-white">${m}</code>`)} />
+          <span
+            set:html={it.replace(
+              /\/repo-access|\/ch1/g,
+              (m) =>
+                `<code class="rounded bg-white/10 px-1.5 py-0.5 font-mono text-sm text-white">${m}</code>`,
+            )}
+          />
         </li>
       ))
     }
@@ -30,7 +45,16 @@ const s = t(locale).repoAccess;
 
   <h2 class="mt-10 text-xl font-semibold text-white">{s.inside.heading}</h2>
   <ul class="mt-4 space-y-2 text-gray-400">
-    {s.inside.items.map((it) => <li class="flex gap-2"><span class="text-gray-600">›</span><span>{it}</span></li>)}
+    {
+      s.inside.items.map((it) => (
+        <li class="flex gap-2">
+          <>
+            <span class="text-gray-600">›</span>
+            <span>{it}</span>
+          </>
+        </li>
+      ))
+    }
   </ul>
 
   <h2 class="mt-10 text-xl font-semibold text-white">{s.trouble.heading}</h2>
