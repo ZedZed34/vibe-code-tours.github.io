@@ -18,16 +18,16 @@ export const SKILLJAR_VERIFY_BASE = "https://verify.skilljar.com/c/";
 export const CERT_CATALOG = {
   claude_101: { label: "Claude 101", level: "beginner", order: 1 },
   claude_code_101: { label: "Claude Code 101", level: "beginner", order: 2 },
-  mcp_intro: { label: "Intro to MCP", level: "beginner", order: 3 },
+  mcp_intro: { label: "Intro to MCP", level: "beginner", order: 5 },
   agent_skills_intro: {
     label: "Intro to Agent Skills",
     level: "intermediate",
-    order: 4,
+    order: 3,
   },
   subagents_intro: {
     label: "Intro to Subagents",
     level: "intermediate",
-    order: 5,
+    order: 4,
   },
   claude_code_in_action: {
     label: "Claude Code in Action",
